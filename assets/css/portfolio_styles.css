@@ -1,0 +1,42 @@
+#leftOfMain > section {
+	padding:0;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+#leftOfMain > section > div{
+	position: relative;
+	width: 315px;
+	height: 360px;
+	padding:0;
+}
+
+#leftOfMain > section > div.left{
+	float: left;
+}
+
+#leftOfMain section > div.right{
+	float: right;
+}
+
+#leftOfMain section h3{
+	border: none;
+	color: white;
+	background-color: teal;
+	padding: 10px 0 10px 0;
+	margin: 0;
+	width: 315px;
+	position: absolute;
+	bottom: 5px;
+	left:0;
+	z-index: 1;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.row > div > img{
+	width:315px;
+	height: 360px;
+	border:none;
+	padding: 0;
+	margin:0;
+}
