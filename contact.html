@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
-	<title>Kyle Mays Portfolio - Contact Page</title>
+	<title>Kyle Mays Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/contact_styles.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/contact_styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </head>
+
 <body>
-	<header>
-		<section id = "insideHeader" class="group">
-			<section id="leftOfInsideHeader">
-				<h2>Kyle Mays</h2>
-			</section>
-			<section id="rightOfInsideHeader">
-				<nav>
-					<ul>
-						<li><a href="./index.html">About</a></li>
-						<li><a href="./portfolio.html">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-			</section>
-		</section>
+	<div class="container">
+		<header>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand thebrand" href="./index.html">Kyle Mays</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="mx-auto order-0">
+						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+					<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="./index.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./portfolio.html">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+	</div>
 	</header>
-	<main class="group">
-		<section id="leftOfMain">
-			<form method = "POST" action = "#">
-				
+	</div>
+	<div class="row">
+			<div class="col-sm-8" id="contact">
+				<h2>Contact</h2>
+				<hr>
 				<p>
 					<label>Name</label>
 					<input type = "text" name = "fullName" placeholder="John Smith">
@@ -43,12 +67,14 @@
 				<p>
 					<input type="submit" name="Submit" value = "Submit">
 				</p>
-			</form>
-		</section>
+			</div>
 		
-	</main>
-	<footer>
-		<h4>&copy;Copyright 2019 Kyle Mays</h4>
-	</footer>
+	</div>
+	
+	<div class="row"> 
+			<div class="col-sm-12" id="footer"><h4>Copyright 2019 Kyle Mays</h4></div>
+		</div>
+	
+	
 </body>
 </html>
